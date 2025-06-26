@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.timer-container {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#timer-display {
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.settings {
+    margin-top: 30px;
+}
+
+.settings div {
+    margin-bottom: 10px;
+}
+
+.settings label {
+    font-size: 16px;
+}
+
+.settings input {
+    font-size: 16px;
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+}
+
+.mode {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.volume-control {
+    margin-top: 20px;
+}
