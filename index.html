@@ -23,9 +23,13 @@
                 <label for="rest-duration">休憩時間 (分):</label>
                 <input type="number" id="rest-duration" value="5" min="1">
             </div>
+            <div>
+                <label for="auto-start">自動で次のサイクルを開始:</label>
+                <input type="checkbox" id="auto-start">
+            </div>
         </div>
         <div class="mode">
-            現在のモード: <span id="mode-display">作業</span>
+            現在のモード: <span id="mode-display">作業</span> | 完了サイクル: <span id="cycle-count-display">0</span>
         </div>
         <div class="volume-control">
             <label for="volume-slider">音量:</label>
