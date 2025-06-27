@@ -1,0 +1,27 @@
+{
+  "name": "pomodoro-timer",
+  "version": "1.0.0",
+  "description": "作業時間と休憩時間を設定できる、Webベースのシンプルなポモドーロタイマーです。",
+  "main": "script.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medi-y-sato/pomodoro-timer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/medi-y-sato/pomodoro-timer/issues"
+  },
+  "homepage": "https://github.com/medi-y-sato/pomodoro-timer#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
